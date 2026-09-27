@@ -43,3 +43,10 @@ and I spend most of my time building the AI agents and automation I wish already
   <img src="https://raw.githubusercontent.com/Vivek4476/Vivek4476/output/snake.svg" width="100%" alt="Contribution graph being eaten by a snake"/>
 </picture>
 
+---
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/vivek-yadav-625085189/"><img src="https://img.shields.io/badge/Let's%20connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
+
+</div>
