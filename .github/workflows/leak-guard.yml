@@ -1,0 +1,33 @@
+name: leak-guard
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install gitleaks
+        run: |
+          curl -sSfL https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz \
+            | tar -xz -C /usr/local/bin gitleaks
+
+      - name: Scan full history for secrets
+        run: gitleaks git . --no-banner --redact
+
+      - name: Denylist + contact + metadata checks
+        env:
+          DENYLIST: ${{ secrets.DENYLIST }}
+        run: |
+          pip install --quiet pillow
+          printf '%s\n' "$DENYLIST" > "$RUNNER_TEMP/denylist.txt"
+          DENYLIST_FILE="$RUNNER_TEMP/denylist.txt" ./scripts/guard.sh tree
