@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Vivek Yadav — building AI agents and automation">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Vivek Yadav — Program Manager, Digital Transformation">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#161B22"/></linearGradient>
     <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#F5D98B"/><stop offset=".55" stop-color="#C9A24A"/><stop offset="1" stop-color="#9C7A2E"/></linearGradient>
@@ -17,9 +17,9 @@
   <ellipse class="halo" cx="600" cy="120" rx="420" ry="140" fill="url(#halo)"/>
   <text x="600" y="108" text-anchor="middle" class="name" fill="url(#gold)">Vivek Yadav</text>
   <rect x="560" y="126" width="80" height="2" rx="1" fill="#C9A24A" opacity=".6"/>
-  <clipPath id="t0"><rect x="414.2" y="150" height="40" width="0"><animate attributeName="width" dur="12.0s" repeatCount="indefinite" keyTimes="0.000;0.100;0.273;0.317;1.000" values="0;371.6;371.6;0;0"/></rect></clipPath>
-  <text x="414.2" y="178" class="mono" clip-path="url(#t0)">AI agents that do real work.</text>
-  <rect y="158" width="2.5" height="26" fill="#E8C872" opacity="0"><animate attributeName="x" dur="12.0s" repeatCount="indefinite" keyTimes="0.000;0.100;0.273;0.317;1.000" values="414.2;785.8;785.8;414.2;414.2"/><animate attributeName="opacity" dur="12.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.000;0.333" values="1;1;0"/></rect>
+  <clipPath id="t0"><rect x="334.6" y="150" height="40" width="0"><animate attributeName="width" dur="12.0s" repeatCount="indefinite" keyTimes="0.000;0.100;0.273;0.317;1.000" values="0;530.8;530.8;0;0"/></rect></clipPath>
+  <text x="334.6" y="178" class="mono" clip-path="url(#t0)">Program Manager · Digital Transformation</text>
+  <rect y="158" width="2.5" height="26" fill="#E8C872" opacity="0"><animate attributeName="x" dur="12.0s" repeatCount="indefinite" keyTimes="0.000;0.100;0.273;0.317;1.000" values="334.6;865.4;865.4;334.6;334.6"/><animate attributeName="opacity" dur="12.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.000;0.333" values="1;1;0"/></rect>
   <clipPath id="t1"><rect x="368.0" y="150" height="40" width="0"><animate attributeName="width" dur="12.0s" repeatCount="indefinite" keyTimes="0.000;0.333;0.433;0.607;0.650;1.000" values="0;0;464.0;464.0;0;0"/></rect></clipPath>
   <text x="368.0" y="178" class="mono" clip-path="url(#t1)">Automation pipelines: n8n + Python.</text>
   <rect y="158" width="2.5" height="26" fill="#E8C872" opacity="0"><animate attributeName="x" dur="12.0s" repeatCount="indefinite" keyTimes="0.000;0.333;0.433;0.607;0.650;1.000" values="368.0;368.0;832.0;832.0;368.0;368.0"/><animate attributeName="opacity" dur="12.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.333;0.667" values="0;1;0"/></rect>
